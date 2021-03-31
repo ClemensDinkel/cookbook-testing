@@ -1,0 +1,44 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+  
+body {
+  display: flex;
+  background-image: url(./assets/digital_rain.gif)
+}
+  
+.side-navigation {
+  max-width: 200px;
+  background: rgba(20, 20, 20, 0.95);
+  border: solid 1px rgb(20, 20, 20);
+  border-radius: 5px;
+}
+
+.navcontent {
+  padding: 0;
+  margin: 0;
+}
+
+.search-bar {
+  background-color: rgba(20, 20, 20, 0.95);
+  border: solid 1px rgb(20, 20, 20);
+  border-radius: 5px;
+}
+
+.search-bar .dropdown {
+  display: none;
+}
+
+.search-bar:hover .dropdown {
+  display: block;
+}
+
+.content {
+  width: 100%;
+  height: 1600px;
+  background: rgba(20, 20, 20, 0.95);
+  border: solid 1px rgb(20, 20, 20);
+  border-radius: 5px;
+  color:rgb(3, 99, 0);
+}
